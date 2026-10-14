@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.venv/
+pip-log.txt
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Cache
+.ruff_cache/
+.mypy_cache/
+.pytest_cache/
+
+# Git sub-repositories (do not nest .git)
+**/.git/
+
+# Environment
+.env
+.env.local
+
+# Logs
+*.log
